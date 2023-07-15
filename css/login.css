@@ -1,0 +1,65 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#login_form {
+    box-shadow: 0px 0px 100px 0px rgba(80, 80, 80, 0.3);
+    background-color: white;
+    border-radius: 2vw;
+    padding: 3vw;
+    display: inline-block;
+    margin: 1vw;
+}
+
+#enter {
+    font-family: "Arvo";
+    text-align: center;
+    font-size: 2vw;
+    margin-bottom: 2vw;
+}
+
+label {
+    font-family: "Montserrat-Bold";
+    font-size: 1.5vw;
+}
+
+input {
+    margin-top: 0.2vw;
+    margin-bottom: 12%;
+    width: 50%;
+    font-size: 1.2vw;
+    border: 2px solid lightgray;
+    border-radius: 0.2vw;
+}
+
+#submit {
+    text-align: center;
+}
+
+#submit button {
+    padding: 1vw;
+    width: 100%;
+    font-size: 1.2vw;
+    border-radius: 2vw;
+    font-weight: bold;
+    background-image: linear-gradient(to right, #64FFC0 10%,  #51a3d3 50%, #003DFF 100%);
+    color: white;
+    border: none;
+    box-shadow: 0px 0px 30px 0px rgba(0, 238, 255, 0.5);
+    transition: ease-in 0.2s all;
+    transition: ease-out 0.2s all;
+}
+
+#submit button:hover {
+    cursor: pointer;
+    transform: scale(0.95);
+}
+
+img {
+    width: 30vw;
+    height: auto;
+}

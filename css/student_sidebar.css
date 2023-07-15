@@ -1,0 +1,79 @@
+#sidebar {
+    display: inline-block;
+    position: fixed;
+    z-index: 2;
+}
+
+.sidebar_rows {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu_text {
+    font-size: 1.5vw;
+    font-family: "Montserrat-Bold";
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.sidebar_elements_column1_1 {
+    background-color: white;
+    border-radius: 2vw 2vw 0px 0px;
+    padding: 1vw;
+    padding-bottom: 2vw;
+}
+
+.sidebar_elements_column1_2 {
+    background-color: white;
+    border-radius: 0px 0px 2vw 2vw;
+    padding: 1vw;
+}
+
+.sidebar_elements_column2_1 {
+    box-shadow: 0px 0px 100px 0px rgba(80, 80, 80, 0.3);
+    background-color: white;
+    border-radius: 2vw;
+    width: 0;
+    padding: 1vw;
+    margin: 0 0 1vw 1vw;
+    visibility: hidden;
+    opacity: 0;
+    transition: ease-in .2s all;
+    transition: ease-out .2s all;
+}
+
+.sidebar_elements_column2_2 {
+    box-shadow: 0px 0px 100px 0px rgba(80, 80, 80, 0.3);
+    background-color: white;
+    border-radius: 2vw;
+    width: 0;
+    padding: 1vw;
+    margin: 0 0 0 1vw;
+    visibility: hidden;
+    opacity: 0;
+    transition: ease-in 0.2s all;
+    transition: ease-out 0.2s all;
+}
+
+#sidebar:hover .sidebar_elements_column2_2{
+    visibility: visible;
+    opacity: 1;
+    width: 15vw;
+}
+
+#sidebar:hover .sidebar_elements_column2_1{
+    visibility: visible;
+    opacity: 1;
+    width: 15vw;
+}
+
+.sidebar_elements_column2_2:hover {
+    transform: scale(0.95);
+}
+
+.sidebar_elements_column2_1:hover {
+    transform: scale(0.95);
+}

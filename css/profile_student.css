@@ -1,0 +1,83 @@
+.eyebrow_header {
+    font-family: "Arvo";
+    font-size: 2vw;
+    margin-bottom: 2vw;
+}
+
+#avatar {
+    display: none;
+}
+
+#avatar_img {
+    cursor: pointer;
+    width: auto;
+    height: 24vw;
+}
+
+label {
+    font-family: "Montserrat-Bold";
+    font-size: 1.2vw;
+}
+
+input {
+    margin-top: 0.2vw;
+    margin-bottom: 8%;
+    width: 70%;
+    font-size: 1.2vw;
+    border: 2px solid lightgray;
+    border-radius: 0.2vw;
+}
+
+#submit button {
+    padding: 2vw 3vw 2vw 3vw;
+    font-size: 1.5vw;
+    border-radius: 2vw;
+    font-family: "Montserrat-Bold";
+    background-image: linear-gradient(to right, #64FFC0 10%,  #51d3c2 50%, #003DFF 100%);
+    color: white;
+    border: none;
+    box-shadow: 0px 0px 30px 0px rgba(0, 238, 255, 0.5);
+    transition: ease-in 0.2s all;
+    transition: ease-out 0.2s all;
+    margin: 1vw 1vw 2vw 0;
+    float: right;
+}
+
+#submit button:hover {
+    cursor: pointer;
+    transform: scale(0.95);
+}
+
+#square {
+    width: 70vw;
+    margin-left: 14vw;
+}
+
+#groups {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+p {
+    margin: 0 1vw 1vw 0;
+}
+
+.all_box {
+    box-shadow: 0px 0px 100px 0px rgba(80, 80, 80, 0.3);
+    background-color: white;
+    border-radius: 2vw;
+    padding: 2vw;
+    display: inline-block;
+    margin: 1vw;
+    width: 33vw;
+}
+
+#box_1 {
+    display: block;
+    float: left;
+}
+
+#box_2 {
+    display: block;
+}
